@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.analyser.CricketAnalyserTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-05-12T16:14:47" hostname="DESKTOP-2TJPHRI" time="10.762">
+<testsuite name="com.bl.analyser.CricketAnalyserTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-05-12T17:39:12" hostname="DESKTOP-2TJPHRI" time="10.899">
   <properties/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnStrikingRate_ShouldReturnTopStrikingRateOfBowler" classname="com.bl.analyser.CricketAnalyserTest" time="0.755"/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnBowlingAverageWithStrikingRate_ShouldReturnGreatBowlingAverageWithBestStrikingRateOfBowler" classname="com.bl.analyser.CricketAnalyserTest" time="0.514"/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOn6sAnd4s_ShouldReturnMostHitBoundries" classname="com.bl.analyser.CricketAnalyserTest" time="5.352"/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnSrikeRate_ShouldReturnTopStrikingRate" classname="com.bl.analyser.CricketAnalyserTest" time="0.543"/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnEconomyRate_ShouldReturnBestEconomyRateOfBowler" classname="com.bl.analyser.CricketAnalyserTest" time="0.53"/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnRunWithAverage_ShouldReturnMaximumRunWithBestAverage" classname="com.bl.analyser.CricketAnalyserTest" time="0.562"/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnAverage_ShouldReturnTopBowlingAverage" classname="com.bl.analyser.CricketAnalyserTest" time="0.478"/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnStrikingRateWith5wAnd4w_ShouldReturnBestStrikingRateWith5wAnd4wOfBowler" classname="com.bl.analyser.CricketAnalyserTest" time="0.482"/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnAverageWithStrikeRate_ShouldReturnGreatAverageWithBestStrikingRate" classname="com.bl.analyser.CricketAnalyserTest" time="0.51"/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnStrikeRateWith6sAnd4s_ShouldReturnBestStrikingRateWith6sAnd4s" classname="com.bl.analyser.CricketAnalyserTest" time="0.523"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnStrikingRate_ShouldReturnTopStrikingRateOfBowler" classname="com.bl.analyser.CricketAnalyserTest" time="0.756"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOn6sAnd4s_ShouldReturnMostHitBoundries" classname="com.bl.analyser.CricketAnalyserTest" time="5.05"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnSrikeRate_ShouldReturnTopStrikingRate" classname="com.bl.analyser.CricketAnalyserTest" time="0.521"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnEconomyRate_ShouldReturnBestEconomyRateOfBowler" classname="com.bl.analyser.CricketAnalyserTest" time="0.507"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnRunWithAverage_ShouldReturnMaximumRunWithBestAverage" classname="com.bl.analyser.CricketAnalyserTest" time="0.578"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnAverage_ShouldReturnTopBowlingAverage" classname="com.bl.analyser.CricketAnalyserTest" time="0.486"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnStrikingRateWith5wAnd4w_ShouldReturnBestStrikingRateWith5wAnd4wOfBowler" classname="com.bl.analyser.CricketAnalyserTest" time="0.485"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnAverageWithStrikeRate_ShouldReturnGreatAverageWithBestStrikingRate" classname="com.bl.analyser.CricketAnalyserTest" time="0.523"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnStrikeRateWith6sAnd4s_ShouldReturnBestStrikingRateWith6sAnd4s" classname="com.bl.analyser.CricketAnalyserTest" time="0.514"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnAverageWithStrikingRate_ShouldReturnGreatBowlingAverageWithBestStrikingRate" classname="com.bl.analyser.CricketAnalyserTest" time="0.468"/>
   <testcase name="givenIPLCricketLeagueData_WhenSortedOnAvg_ShouldReturnTopBattingAveragePlayer" classname="com.bl.analyser.CricketAnalyserTest" time="0.508"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnWicketsAndAverage_ShouldReturnMaxWicketsWithGreatBowlingAverage" classname="com.bl.analyser.CricketAnalyserTest" time="0.499"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
