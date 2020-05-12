@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.analyser.CricketAnalyserTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-05-12T10:28:05" hostname="DESKTOP-2TJPHRI" time="4.986">
+<testsuite name="com.bl.analyser.CricketAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-12T13:53:24" hostname="DESKTOP-2TJPHRI" time="0.969">
   <properties/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnStrikingRate_ShouldReturnTopStrikingRateOfBowler" classname="com.bl.analyser.CricketAnalyserTest" time="0.752"/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOn6sAnd4s_ShouldReturnMostHitBoundries" classname="com.bl.analyser.CricketAnalyserTest" time="0.56"/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnSrikeRate_ShouldReturnTopStrikingRate" classname="com.bl.analyser.CricketAnalyserTest" time="0.542"/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnEconomyRate_ShouldReturnBestEconomyRateOfBowler" classname="com.bl.analyser.CricketAnalyserTest" time="0.473"/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnRunWithAverage_ShouldReturnMaximumRunWithBestAverage" classname="com.bl.analyser.CricketAnalyserTest" time="0.589"/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnAverage_ShouldReturnTopBowlingAverage" classname="com.bl.analyser.CricketAnalyserTest" time="0.494"/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnAverageWithStrikeRate_ShouldReturnGreatAverageWithBestStrikingRate" classname="com.bl.analyser.CricketAnalyserTest" time="0.536"/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnStrikeRateWith6sAnd4s_ShouldReturnBestStrikingRateWith6sAnd4s" classname="com.bl.analyser.CricketAnalyserTest" time="0.521"/>
-  <testcase name="givenIPLCricketLeagueData_WhenSortedOnAvg_ShouldReturnTopBattingAveragePlayer" classname="com.bl.analyser.CricketAnalyserTest" time="0.517"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnStrikingRateWith5wAnd4w_ShouldReturnBestStrikingRateWith5wAnd4wOfBowler" classname="com.bl.analyser.CricketAnalyserTest" time="0.969"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
