@@ -14,7 +14,15 @@ public class CricketAnalyserTest {
     public void givenIPLCricketLeagueData_WhenSortedOnAvg_ShouldReturnTopBattingAveragePlayer() {
             CricketAnalyser cricketAnalyser = new CricketAnalyser(CricketAnalyser.Role.BATTING);
             cricketAnalyser.loadIPLCricketerData(IPL_MOST_RUN_CSV_FILE_PATH);
-            List<BatsmanCSVDAO> topBattingAverage = cricketAnalyser.getTopBattingAverage("Avg");
+            List<BatsmanCSVDAO> topBattingAverage = cricketAnalyser.getTopStatus("Avg");
             Assert.assertEquals("MS Dhoni",topBattingAverage.get(0).player);
+    }
+
+    @Test
+    public void givenIPLCricketerLeagueData_WhenSortedOnAvg_ShouldReturnTopStrikingRate() {
+        CricketAnalyser cricketAnalyser = new CricketAnalyser(CricketAnalyser.Role.BATTING);
+        cricketAnalyser.loadIPLCricketerData(IPL_MOST_RUN_CSV_FILE_PATH);
+        List<BatsmanCSVDAO> topSrikingRate = cricketAnalyser.getTopStatus("StrikeRate");
+        Assert.assertEquals("Ishant Sharma",topSrikingRate.get(0).player);
     }
 }
