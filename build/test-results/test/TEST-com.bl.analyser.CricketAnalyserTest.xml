@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.analyser.CricketAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-12T06:56:09" hostname="DESKTOP-2TJPHRI" time="0.898">
+<testsuite name="com.bl.analyser.CricketAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-12T08:57:16" hostname="DESKTOP-2TJPHRI" time="1.23">
   <properties/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnAverageWithStrikeRate_ShouldReturnGreatAverageWithBestStrikingRate" classname="com.bl.analyser.CricketAnalyserTest" time="0.898"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnRunWithAverage_ShouldReturnMaximumRunWithBestAverage" classname="com.bl.analyser.CricketAnalyserTest" time="1.23"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
