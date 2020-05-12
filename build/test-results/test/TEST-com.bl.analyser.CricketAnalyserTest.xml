@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.analyser.CricketAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-12T08:57:16" hostname="DESKTOP-2TJPHRI" time="1.23">
+<testsuite name="com.bl.analyser.CricketAnalyserTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-12T08:59:45" hostname="DESKTOP-2TJPHRI" time="5.487">
   <properties/>
-  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnRunWithAverage_ShouldReturnMaximumRunWithBestAverage" classname="com.bl.analyser.CricketAnalyserTest" time="1.23"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOn6sAnd4s_ShouldReturnMostHitBoundries" classname="com.bl.analyser.CricketAnalyserTest" time="0.826"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnSrikeRate_ShouldReturnTopStrikingRate" classname="com.bl.analyser.CricketAnalyserTest" time="0.545"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnRunWithAverage_ShouldReturnMaximumRunWithBestAverage" classname="com.bl.analyser.CricketAnalyserTest" time="0.519"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnAverageWithStrikeRate_ShouldReturnGreatAverageWithBestStrikingRate" classname="com.bl.analyser.CricketAnalyserTest" time="0.511"/>
+  <testcase name="givenIPLCricketerLeagueData_WhenSortedOnStrikeRateWith6sAnd4s_ShouldReturnBestStrikingRateWith6sAnd4s" classname="com.bl.analyser.CricketAnalyserTest" time="0.527"/>
+  <testcase name="givenIPLCricketLeagueData_WhenSortedOnAvg_ShouldReturnTopBattingAveragePlayer" classname="com.bl.analyser.CricketAnalyserTest" time="2.556"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
